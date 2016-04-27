@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+
+<body onLoad="MM_preloadImages('imagenes/tema216.jpg','imagenes/haladotieera.jpg','imagenes/oso.jpg','imagenes/indus.jpg','imagenes/tresprrr.jpeg','imagenes/3rrr.png')">
+<div data-role="page" id="principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+
+ <h1>DIA DE LA TIERRA</h1>
+
+</div>
+<div>
+
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>FECHA EN QUE SE CELEBRA</h1>
+  <div>
+    <ul>
+      <li><strong><em>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. </em></strong><br>
+        
+        
+        
+      </li>
+    </ul>
+  </div>
+          <div><center><img src="imagenes/diatierra.jpg" width="313" height="337"></center>
+          </div>
+         
+      
+   </div>
+   </div>
+ 
+<!--foto del popo deslizble--->
+
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>POR QUE SE CELEBRA</h2>
+    </a>
+    </li>
+ 
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>CUIDADOS QUE SE LE DAN AL PLANETA</h2>
+    </a>   
+    </li>
+    
+    
+    
+     <li class="ui-first-child ui-last-child">
+    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>CAMBIO CLIMATICO</h2>
+    </a>   
+    </li>
+    
+    
+    
+    
+    
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>REGLA DE LAS RRR</h2>
+       </a>
+       </li>
+       
+       
+     
+   
+      
+       <!----------------------------------------------------------------->
+      <li class="ui-first-child ui-last-child">
+       <a href="#paginacolap" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>FOTOS DE LA COMUNIDAD</h2>
+       </a>
+       </li>
+        <!----------------------------------------------------------------->
+ 
+       
+       
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>REFLEXION SOBRE EL DIA</h2>
+       </a>
+       </li>
+       </ul>
+    
+    
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+       </div>
+       </div>
+       
+       
+       
+            
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>POR QUE SE CELEBRA</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+ <P> Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</P>
+ <hr>
+ 
+ 
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tema216','','imagenes/tema216.jpg',1)"><img src="imagenes/celbradia.jpg" width="404" height="289" id="tema216"></a> 
+ <br>
+ 
+ 
+ 
+ <p>Tema 2016: Los árboles para la Tierra<br>
+El Día de la Tierra comenzó a celebrarse en los Estados Unidos de América en 1970 y ahora se dirige hacia su 50 aniversario. El tema de este año tiene el objetivo de plantar 7,8 millones de árboles en los próximos cinco años.
+<br>
+¿Por qué los árboles?<br>
+Los árboles ayudan a combatir el cambio climático<br>
+
+
+
+Los árboles nos ayudan a respirar aire limpio<br>
+
+
+
+Los árboles nos ayudan a contrarrestar la pérdida de especies.<br>
+
+
+Los árboles ayudan a las comunidades y sus medios de vida<br>
+
+Los árboles ayudan a las comunidades a lograr la sostenibilidad económica y ambiental a largo plazo y proporcionar los alimentos, la energía y los ingresos.</p>
+ </div>
+
+       </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+      </div>
+      </div> 
+      
+      
+      
+      
+      
+      
+      
+         
+<!----------------------------------------------------------------->
+      <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Cuidados que le dan al planeta</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <p>1. ¡Cierra la llave! Evita mantener el grifo abierto mientras te cepillas los dientes, cuando te enjabones en la noche igual cierra la llave. No abras la válvula al máximo sin necesidad de tanta presión. Y comprueba que los grifos no goteen cuando están cerrados.</p>
+ 
+  <img src="imagenes/cerrallave.jpg" width="260" height="232">
+  <hr>
+  <p>2. Compra papel reciclado: Es una buena manera de salvar mucho árboles, puede ser papel higiénico, servilletas, toalla, papel para escribir cartas, si estás organizando tu boda elige tarjetas elaboradas en papel reciclado y naturaleza muerta.</p>
+  <img src="imagenes/papel.jpg" width="301" height="273">
+  <p>3. Apaga los aparatos eléctricos mientras no los utilices: Usa responsablemente el aire acondicionado, el televisor, la computadora, no mantengas los cargadores conectados si tu celular ya tiene la batería completa.</p>
+  <img src="imagenes/apagar.jpg" width="306" height="253">
+  
+  
+  <hr>
+  <p>4. Utiliza bombillos ahorradores: Además de cuidar el ambiente tu recibo de energía eléctrica también disminuirá.</p>
+  <img src="imagenes/foco.jpg" width="290"  height="332">
+  <hr>
+  <p>5. Cuidado con las bolsas. El plástico con el que elaboran las bolsas tardan cientos de años en degradarse, usa bolsas biodegradables en su lugar o bolsas de tela reutilizables</p>
+  <img src="imagenes/bolsas.jpg" width="260" height="200">
+  <hr >
+  <p>6. Si hay luz natural no ocupas encender el bombillo: Abre las cortinas para que entre la luz y evita usar energía en el día sino la ocupas.</p>
+  <img src="imagenes/ventanas.jpg" width="296" height="181">
+  <hr>
+  
+  <p>7. Mascotas: Si no te gustan los animales no tengas y no maltrates ni atropelles los que caminan por las calles. Si te gustan, cuídalos y protégelos.</p>  
+  <img src="imagenes/masco.jpg" width="266" height="186">
+  
+          <hr>
+          <br>
+          <a href="http://www.un.org/es/events/motherearthday/">Da clic para ir a la pagina de la onu con relacion al dia de la tierra</a>
+          <br>
+          
+          <hr>
+       
+       </div>
+       </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+      </div>
+      </div>
+       <!----------------------------------------------------------------->
+      
+      
+       <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>cambio climatico</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cambio','','imagenes/haladotieera.jpg',1)"><img src="imagenes/cambiclim.jpg" width="277" height="241" id="cambio"></a> 
+<p>El cambio climático es un cambio en la distribución estadística de los patrones meteorológicos durante un periodo prolongado de tiempo (décadas a millones de años). Puede referirse a un cambio en las condiciones promedio del tiempo o en la variación temporal meteorológica de las condiciones promedio a largo plazo (más o menos fenómenos meteorológicos extremos). Está causado por factores como procesos bióticos, variaciones en la radiación solar recibida por la Tierra, tectónica de placas y erupciones volcánicas. También se han identificado ciertas actividades humanas como causas significativas del cambio de clima reciente, a menudo llamado calentamiento global</p>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('osos','','imagenes/oso.jpg',1)"><img src="imagenes/climacam.jpg" width="301" height="194" id="osos"></a> 
+<p>
+Uno de los problemas que nos amenaza hoy en día a todos los seres humanos del Planeta, es el fenómeno del Cambio Climático Global. Las actividades humanas y nuestro sistema económico (y manera de vivir) estamos produciendo más y más gases que están impactando la atmósfera. Esto está causando que la temperatura promedio del planeta suba teniendo consecuencias desastrosas.
+</p>
+
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('indus','','imagenes/indus.jpg',1)"><img src="imagenes/indus2.jpeg" width="311" height="239" id="indus"></a>
+<p>Las investigaciones hechas por algunos científicos apuntan que la razón principal del aumentos de temperatura en el Planeta es debido al proceso de industrialización iniciado hace siglo y medio y, en particular la combustión de cantidades cada vez mayores de petróleo, gasolina y carbón, la tala de árboles y algunos métodos de explotación agrícola. estas actividades aumentan el volumen de gases de efecto invernadero (GEI) en la atmósfera, principalmente de dióxido de carbono, metano y óxido-nitroso.9 Lo anterior, ha provocado que los rayos del Sol queden atrapadas en la atmósfera del Planeta Tierra, provocando así un aumento de temperatura.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+       </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+      </div>
+      </div>
+     
+  
+   <!----------------------------------------------------------------->
+  
+   <div data-role="page" id="paginacolap" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>fotos de la tierra actualmente</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+   <!--COLAP-->
+          <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>A nivel mundial</h1>
+          <div>
+          <!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:400px;height:280px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+          
+          </div>
+          
+          
+   </div>
+   </div>
+  
+       <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>En mi comunidad</h1>
+          <div>
+          <!-- Start WOWSlider.com -->
+<!-- Start WOWSlider.com -->
+<iframe src="visorc/indexcomu.html" style="width:400px;height:280px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<!-- End WOWSlider.com -->
+
+          
+          </div>
+          
+          
+   </div>
+   </div>
+  
+<!--COLAP-->
+   <!--COLAP-->
+   </div>
+   </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+      </div>
+      
+<!--   FIN    COLAP-->
+
+       
+ 
+  
+   <!----------------------------------------------------------------->
+  
+      <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Regla de las 3R</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+    
+   <p>
+   Reducir<br>
+Si reducimos el problema, disminuimos el impacto en el medio ambiente. Los problemas de concienciación, habría que solucionarlos empezando por esta erre.<br>
+
+Reducir o eliminar la cantidad de materiales destinados a un uso único.<br>
+Adaptar los aparatos en función de sus necesidades (por ejemplo poner lavadoras y lavavajillas llenos y no a media carga).<br>
+Reducir pérdidas energéticas o de recursos: de agua, desconexión de aparatos eléctricos en stand by, conducción eficiente, desconectar transformadores, etc.<br>
+</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/tresprrr.jpeg',1)"><img src="imagenes/rrr.jpg" width="236" height="310" id="Image20"></a>
+<p>
+  Reutilizar<br>
+
+Segunda erre más importante, igualmente debido a que también reduce impacto en el medio ambiente, indirectamente. Ésta se basa en reutilizar un objeto para darle una segunda vida útil. Todos los materiales o bienes pueden tener más de una vida útil, bien sea reparándolos para un mismo uso o con imaginación para un uso diferente.<br>
+
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/3rrr.png',1)"><img src="imagenes/tresrrr.png" width="312" height="263" id="Image21"></a>
+<p>
+  Reciclar<br>
+
+Ésta es una de las erres más populares debido a que el sistema de consumo actual ha preferido usar envases de materiales reciclables (plásticos y bricks, sobre todo), pero no biodegradables. De esta forma se necesita el empleo en mayor forma personal y energía en el proceso.<br>
+
+
+   
+   
+ </p>
+      
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+       </div>
+      </div>
+   
+      
+      
+      
+      
+      
+      
+      
+       <!----------------------------------------------------------------->
+      
+      
+      
+  <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Reflexion sobre el dia de la tierra</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+    <p>Hay que cuidar el planeta y solo por un dia no hay que ser hipocritas solo cuidandola un dia y al otro tira basura por la calle y cortar arboles, <br><hr><Center>CUIDEMOS EL PLANETA TODOS LOS DIAS Y NO SOLO UNO.</center><hr><p/>
+    <img src="imagenes/quehaces.png" width="314" height="243">
+
+     
+       
+       
+       </div>
+       </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion cinco</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+      </div>
+     
+    <!----------------------------------------------------------------->  
+
+           
+ </body>
+</html>
